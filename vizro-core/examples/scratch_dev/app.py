@@ -54,7 +54,7 @@ deep_tree = pd.DataFrame(
 # 1. Slider(range=True) - replaces the deprecated RangeSlider.
 # ---------------------------------------------------------------------------------------------------------------------
 page_slider_range = vm.Page(
-    title="Slider(range=True)",
+    title="Range slider",
     components=[
         vm.Graph(figure=px.scatter(iris, x="sepal_length", y="petal_width", color="species")),
     ],
